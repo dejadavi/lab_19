@@ -29,7 +29,7 @@ this.setData=function(location){
                 "Accept": "text/plain"
             }
     }).then(function(dataFinal){
-     
+
             return dataFinal;
             //console.log(this.data);
         });
@@ -37,7 +37,7 @@ this.setData=function(location){
 };
 
 this.getData=function(){
-    
+
     console.log(data);
     return this.data;
 
